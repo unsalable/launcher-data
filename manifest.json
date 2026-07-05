@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.234",
+  "profiles": [
+    {
+      "id": "ana-sunucu",
+      "name": "Ana Sunucu",
+      "description": "Herkesin kullandığı zorunlu sunucu modları",
+      "locked": true,
+      "mods": [
+        {
+          "name": "ornek-mod.jar",
+          "url": "https://github.com/unsalable/launcher-data/raw/main/mods/ornek-mod.jar"
+        }
+      ]
+    },
+    {
+      "id": "melik-modpack",
+      "name": "Melik Modpack",
+      "description": "Ana modlar + Melik'in ekstra client modları",
+      "locked": false,
+      "mods": [
+        {
+          "name": "ornek-mod.jar",
+          "url": "https://github.com/unsalable/launcher-data/raw/main/mods/ornek-mod.jar"
+        }
+      ]
+    }
+  ]
+}
